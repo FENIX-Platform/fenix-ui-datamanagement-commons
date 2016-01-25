@@ -15,7 +15,8 @@
             DUPLICATE_IDS: 'duplicateIDs',
             AT_LEAST_1_KEY: 'atLeast1Key',
             AT_LEAST_1_VALUE: 'atLeast1Value',
-            DUPLICATE_SUBJECTS:'duplicateSubjects'
+            DUPLICATE_SUBJECTS: 'duplicateSubjects'
+
         };
         return e;
     })
