@@ -7,7 +7,11 @@ define(function () {
 
             //'fx-DataEditor/start' : './start',
             //"fx-DataEditor/config": "../config",
+
+
             "fx-DataMngCommons/js": "../js"
+
+
             /*,
             "fx-DataEditor/html": "../html",
             "fx-DataEditor/multiLang": "../multiLang",
