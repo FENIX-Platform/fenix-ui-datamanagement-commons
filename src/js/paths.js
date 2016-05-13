@@ -9,7 +9,10 @@ define(function () {
             //"fx-DataEditor/config": "../config",
 
 
-            "fx-DataMngCommons/js": "../src/js"
+            "fx-DataMngCommons/js": "../js",
+
+            pnotify: '{FENIX_CDN}/js/pnotify/2.0.1/pnotify.custom.min',
+
 
 
             /*,
