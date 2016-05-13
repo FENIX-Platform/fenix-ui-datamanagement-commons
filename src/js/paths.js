@@ -9,7 +9,7 @@ define(function () {
             //"fx-DataEditor/config": "../config",
 
 
-            "fx-DataMngCommons/js": "../js"
+            "fx-DataMngCommons/js": "../src/js"
 
 
             /*,
