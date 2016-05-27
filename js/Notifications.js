@@ -23,10 +23,18 @@
         };
 
         Notifications.prototype._show = function (title, text, type) {
-            new PNotify({
+            var notice = new PNotify({
                 title: title,
                 text: text,
-                type: type
+                type: type,
+                buttons: {
+                    closer: false,
+                    sticker: false
+                }
+
+            });
+            notice.get().click(function() {
+                notice.remove();
             });
         };
         return new Notifications();
